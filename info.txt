@@ -1,0 +1,4 @@
+
+service mysqld restart
+root/123456
+
