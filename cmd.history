@@ -1,0 +1,28 @@
+t@iZbp1bw7eijqwjbm38pbf8Z html]# history
+
+   17  yum install httpd
+   
+
+   21  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   22  rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+   24  yum install php72w-cli php72w-common php72w-devel php72w-mysql
+   25  yum install install php72w-gd php72w-imap php72w-ldap php72w-odbc php72w-pear php72w-xml php72w-xmlrpc
+   26  php -v
+   
+
+   30  service httpd restart
+   31  service httpd status
+   
+   48  yum install mysql
+   50  yum install git
+   
+   97  service mariadbd status
+  104  yum install mariadb-server
+  107  service mariadb start
+  114  mysqladmin -u root -p password Sql@0805
+ 
+  143  yum install mod_php
+  144  serice httpd restart
+  145  service httpd restart
+  
+  147  cat ~/blog_database/backupBlog.sh
